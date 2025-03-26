@@ -1,0 +1,63 @@
+
+#include <stdio.h>
+
+int main()
+{
+    
+    printf("Hello World");
+    public class Contabancaria { no usages  
+    
+    private String nomeTitularç no usages
+    private String numero; no usages
+    private double saldo; no usages
+    private double Limite = SaqueDiario; no usages
+    private double valorSaque; no usages
+    
+    
+    
+    public ContaBancaria(String nomeTitular, String numero) { no usages
+        this.nomeTitular = nomeTitular;
+        this.numero = numero;
+        saldo = 0.0;
+        this.limiteSaqueDiario = 1000.0;
+        this.valorSaqueDiario = 0.0;
+        
+        
+        public depositar(double valor) no usages
+            if (valor > 0 ) {
+                this.saldo += valor;
+                
+                return true;
+            }
+        else {
+            return false;
+        }
+        
+        public boolean sacar(double valor) { no usages
+            
+            if (valor > 0 
+                        &&( valor + valorSaqueDiario) <= limiteSaqueDiario
+                        && valor <= saldo) {
+                            
+                        saldo -= valor;
+                        valorSaqueDiario += valor;
+                        return true;
+                        }
+}           
+        public void consultarSaldo() { no usages
+        System.out.printf("Conta........:%s", numero);
+        System.out.printf("Titular........:%s", nomeTitular);
+        System.out.printf("Saldo........:%.2f", saldo);
+        System.out.printf("Limite........:%.2f", limiteSaqueDiario - valor);\
+        
+        }
+        
+        
+        public void resetarLimiteDiario() {no usages
+            valorSaqueDiario = 0.0;
+            
+        }
+    return false;
+    
+    }    
+    
